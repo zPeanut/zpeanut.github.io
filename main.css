@@ -1,19 +1,32 @@
 html {
-	margin: 20px;
-	background-color: #EDF5C8;
+	
+	margin-left: 30px;
+	margin-right: 700px;
+	background-color: #faf8f5;
 }
 
 body {
-   font-family: 'Century Gothic', 'MS Sans Serif', arial; font-size: 32px; 
+   font-family: 'Century Gothic', 'Futura', san-serif; font-size: 18px; 
    font-weight: 300;
    color: #333;
 }
 
 h1 {
-	font-size: 50px;
+	font-family: 'Century Gothic', 'Futura', san-serif;
+	font-size: 52px;
+}
+h2 {
+	font-family: 'Century Gothic', 'Futura', san-serif;
+	font-size: 24px;
+}
+
+h3 {
+	font-family: 'Century Gothic', 'Futura', san-serif;
+	font-size: 20px;
 }
 
 p {
-	font-size: 20px;
-	color: #E321A9;
+	font-family: 'Century Gothic', 'MS Sans Serif', arial; 
+	font-size: 18px;
+	color: #000000;
 }
