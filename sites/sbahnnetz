@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Übersicht HTML Klasse 9</title>
+	</head>
+	
+	<body>
+	
+	  <link rel=icon href="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2000px-HTML5_logo_and_wordmark.svg.png">
+	
+    <link rel="stylesheet" href="main.css">	
+	
+   <img src="pics/chrome.png" align=center border="0" alt="picture not found" width="300" height="300"/> 
+   
+	</body>
+
+</html>
+		
