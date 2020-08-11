@@ -1,55 +1,89 @@
 * {
-		margin: 0;
-		padding: 0;
-		font-family: Century Gothic;
-		font-size: 20px;
+	margin: 0;
+	padding: 0;
 }
 
-header {
-		background-image: url(pictures/mainbg.jpg);
-		height : 100vh;
-		background-size: cover;
-		background-position: center;
+html {
+	scroll-behavior: smooth;
 }
 
-.main {
-	max-width: 1200px;
-	margin: auto;
-}
-
-ul {
-	float: right;
-	list-style-type: none;
-	margin-top: 25px;
-	margin-right: 50px;
-}
-
-ul li {
-	display: inline-block;
-    padding: 5px
-}
-
-ul li a {
-	text-align: center;
-	text-decoration: none;
-	color: #fff;
-	padding: 10px 20px;
-	border: 1px solid #fff;
-	transition: 0.6s ease
+#nav-bar {
+		position: sticky;
+		top: 0;
+		z-index: 10;
 	
 }
 
-ul li a:hover {
-	background-color: #fff;
-	color: #000;
+.navbar-brand img {
+	height: 40px;
+	padding-left: 10px;
 }
 
-.logo img {
-	float: left;
-	width: 400px;
-	object-position: 10px -90px;
+.navbar-nav li {
+	padding: 0 10px;
+}
+
+.navbar-nav li a {
+	float: right;
+	text-align: right;
+}
+
+#nav-bar ul li a:hover {
+	color: #007bff!important;
+}
+
+.navbar {
+	background: #fff:
+}
+
+.navbar-toggler {
+	border: none!important;
+}
+
+.nav-link {
+	color: #555!important;
+	font-weight: 500;
+	font-size: 16px;
+	transition: 0.4s ease
+}
+
+#carousel {
+	border-left: 100px;
+	width: 100%;
+	padding: 40px;
+}
+
+/* damit die bilder dunkel sind aber nicht der text */
+#imgc {
+		filter: brightness(60%);
 }
 
 
+#about {
+	padding-top: 20px;
+	padding-bottom: 90px;
+	color: #555;
+}
 
+#about .btn {
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
 
+.about-content {
+	padding-top: 20px;
+}
+
+.skills-bar p {
+	margin-bottom: 6px;
+	font-weight: 600;
+}
+
+.progress-bar {
+	border-radius: 16px;	
+}
+
+.progress {
+	border-radius: 16px !important;
+	margin-bottom: 30px;
+}
