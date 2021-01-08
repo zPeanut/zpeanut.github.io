@@ -3,6 +3,21 @@
 	padding: 0;
 }
 
+ @font-face {
+		font-family: 'Comfortaa';
+		font-style: normal;
+		font-weight: 400;
+		font-display: swap;
+		src: url(fonts/Comfortaa-Regular.ttf) format('opentype');
+}
+@font-face {
+		font-family: 'Comfortaa-Bold';
+		font-style: bold;
+		font-weight: 400;
+		font-display: swap;
+		src: url(fonts/Comfortaa-Bold.ttf) format('opentype');
+}
+
 html {
 	scroll-behavior: smooth;
 }
@@ -29,28 +44,23 @@ html {
 }
 
 #nav-bar ul li a:hover {
-	color: #007bff!important;
+	color: #ffffff!important;
 }
 
-.navbar {
-	background: #fff:
-}
+
 
 .navbar-toggler {
 	border: none!important;
 }
 
 .nav-link {
-	color: #555!important;
+	color: #6f6f70!important;
 	font-weight: 500;
 	font-size: 16px;
 	transition: 0.4s ease
 }
 
 #carousel {
-	border-left: 100px;
-	width: 100%;
-	padding: 40px;
 }
 
 /* damit die bilder dunkel sind aber nicht der text */
