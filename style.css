@@ -169,10 +169,16 @@ h3.heading1 {
     text-transform: uppercase;
 }
 
-
-
 .feature svg.svg-inline--fa {
     color: #596c78;
+}
+
+.heading-underline {
+    width: 20em;
+    height: .2rem;
+    background-color: #596c78;
+    margin: 0 auto;
+    margin-top: -1rem;
 }
 
 
