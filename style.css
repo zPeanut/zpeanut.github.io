@@ -5,16 +5,16 @@ body {
 
   background-color: #191919;
   overflow-x: hidden;
-  
+
 
   @font-face {
-    font-family: 'Comfortaa', cursive;    
+    font-family: 'Comfortaa', cursive;
   }
 
   @font-face {
-    font-family: 'Century Gothic', sans-serif;    
+    font-family: 'Century Gothic', sans-serif;
   }
-  
+
   color: #e6e6e6;
 }
 
@@ -72,7 +72,19 @@ h2 {
 }
 
 .home-inner {
-  background-image: url(img/bgmain.png);
+position: fixed;
+      left: 0;
+      right: 0;
+      z-index: -1;
+      display: block;
+      width: 1200px;
+      height: 800px;
+      -webkit-filter: blur(5px);
+      -moz-filter: blur(5px);
+      -o-filter: blur(5px);
+      -ms-filter: blur(5px);
+      filter: blur(4px);
+      background-image: url(img/bgmain.png);
 }
 
 .caption {
@@ -126,7 +138,7 @@ h2.subtitle {
 
 
 .btn-outline-dark {
-  color: #c1c1c1; 
+  color: #c1c1c1;
 }
 
 .fixed-background {
@@ -134,12 +146,11 @@ h2.subtitle {
 }
 
 .jumbotron {
-    margin-top: 0;
-    margin-bottom: 0;
-    border-radius: 0;
+    border-radius: 1;
     background-color: #242424;
     color: #c1c1c1;
     padding: 1px 0 3.5rem;
+    margin-bottom: 0;
 }
 
 h3.heading {
@@ -149,17 +160,7 @@ h3.heading {
     text-transform: uppercase;
 }
 
-h3::after{
-    content: '';
-    position: absolute;
-    left: 43%;
-    display: inline-block;
-    margin-top: 56px;
-    width: 28%;
-    height: 2px;
-    background: #596c78;
-    transform:translateX(-65px) /*    width/2    */
-}
+
 
 h3.heading1 {
     font-family: 'Comfortaa', Arial, cursive;
@@ -168,17 +169,7 @@ h3.heading1 {
     text-transform: uppercase;
 }
 
-h3.heading1::after {
-  content: '';
-      position: absolute;
-      left: 43%;
-      display: inline-block;
-      margin-top: 56px;
-      width: 25%;
-      height: 2px;
-      background: #596c78;
-      transform:translateX(-65px) /*    width/2    */
-}
+
 
 .feature svg.svg-inline--fa {
     color: #596c78;
@@ -186,8 +177,26 @@ h3.heading1::after {
 
 
 .fixed {
-    background-image: url(img/2.png);
-    z-index: -1;
+     position: fixed;
+      left: 0;
+      right: 0;
+      z-index: -1;
+      display: block;
+      background-image: url(img/2.png);
+      width: 1200px;
+      height: 800px;
+      -webkit-filter: blur(5px);
+      -moz-filter: blur(5px);
+      -o-filter: blur(5px);
+      -ms-filter: blur(5px);
+      filter: blur(3px);
+}
+
+.dark {
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #c1c1c1;
+    padding: 7rem 3rem 6rem;
+    margin-bottom: 0.7rem;
 }
 
 .fixed-background h3 {
