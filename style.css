@@ -34,6 +34,8 @@ h2 {
   font-family: 'Comfortaa', Arial, cursive;
 }
 
+
+
 .offset:before {
   display: block;
   content: "";
@@ -42,8 +44,9 @@ h2 {
 }
 
 .navbar {
+  font-family: 'Comfortaa', Arial, cursive;
   text-transform: lowercase;
-  font-weight: 700;
+  font-weight: 300;
   font-size: 1.1rem;
   letter-spacing: .1rem;
   background-color: rgba(0, 0, 0, 0.4)!important;
@@ -100,10 +103,14 @@ h2.desc {
 }
 
 .btn-lg {
+    font-family: 'Comfortaa', Arial, cursive;
     border-radius: 2rem;
     padding: .6rem 1.3rem;
     font-size: 1.1rem;
+    text-shadow: .1rem .1rem .5rem black;
 }
+
+
 
 .narrow {
   width: 75%;
@@ -124,11 +131,12 @@ h2.desc {
 }
 
 .jumbotron {
+    margin-top: 0;
     margin-bottom: 0;
     border-radius: 0;
     background-color: #242424;
     color: #c1c1c1;
-    padding: 2rem 0 3.5rem;
+    padding: 1px 0 3.5rem;
 }
 
 h3.heading {
@@ -138,18 +146,40 @@ h3.heading {
     text-transform: uppercase;
 }
 
+h3.heading::after {
+  content: '';
+  position: absolute;
+  left: 30%;
+  display: inline-block;
+  height: 1em;
+  width: 40%;
+  border-bottom: 1px solid;
+  margin-top: 15px;
+  margin-bottom: 2em;
+}
 
+h3.heading1 {
+    font-family: 'Comfortaa', Arial, cursive;
+    font-size: 2.6rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
 
+h3.heading1::after {
+  content: '';
+  position: absolute;
+  left: 35%;
+  display: inline-block;
+  height: 1em;
+  width: 29%;
+  border-bottom: 1px solid;
+  margin-top: 15px;
+  color: #596c78;
+}
 
-
-
-
-
-
-/*============= COURSE SECTION =============*/
-
-
-
+.feature svg.svg-inline--fa {
+    color: #596c78;
+}
 
 
 
