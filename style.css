@@ -85,8 +85,8 @@ h2 {
 }
 
 h2.desc {
+    text-transform: lowercase;
     font-weight: 200;
-
 }
 
 .caption h1 {
@@ -146,16 +146,16 @@ h3.heading {
     text-transform: uppercase;
 }
 
-h3.heading::after {
-  content: '';
-  position: absolute;
-  left: 30%;
-  display: inline-block;
-  height: 1em;
-  width: 40%;
-  border-bottom: 1px solid;
-  margin-top: 15px;
-  margin-bottom: 2em;
+h3::after{
+    content: '';
+    position: absolute;
+    left: 43%;
+    display: inline-block;
+    margin-top: 56px;
+    width: 28%;
+    height: 2px;
+    background: #596c78;
+    transform:translateX(-65px) /*    width/2    */
 }
 
 h3.heading1 {
@@ -167,18 +167,22 @@ h3.heading1 {
 
 h3.heading1::after {
   content: '';
-  position: absolute;
-  left: 35%;
-  display: inline-block;
-  height: 1em;
-  width: 29%;
-  border-bottom: 1px solid;
-  margin-top: 15px;
-  color: #596c78;
+      position: absolute;
+      left: 43%;
+      display: inline-block;
+      margin-top: 56px;
+      width: 25%;
+      height: 2px;
+      background: #596c78;
+      transform:translateX(-65px) /*    width/2    */
 }
 
 .feature svg.svg-inline--fa {
     color: #596c78;
+}
+
+.feature h3 {
+
 }
 
 
