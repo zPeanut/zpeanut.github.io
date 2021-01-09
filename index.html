@@ -1,124 +1,420 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tephra</title>
+	<link rel="stylesheet" href="bootstrap-4.1.3-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/fixed.css">
+	<link rel="shortcut icon" type="image/png" href="img/logocircle.png">
+</head>
 
-<html>
-	<head>
-		<title>Tephra</title>
-		<link rel="stylesheet" href="css/style.css">
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>	
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-		<link rel="shortcut icon" type="image/png" href="files/img/logo.png">
-	</head>
-	
-	<body style="background-color:#191919">
-	
-	
-	
-	
-	<!-- Navigation Bar -->
-		<section id="nav-bar">
-			<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-				<a class="navbar-brand" href="#"><img src="files/img/logo1.svg"></a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse" id="navbarNav">
-					<ul class="navbar-nav">
-						<li class="nav-item active">
-							<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#carousel">About</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#about">Download</a>
-						</li>						
-						<li class="nav-item">
-							<a class="nav-link" href="#">Contact</a>
-						</li>
-						<!--<li class="nav-item">
-							<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-						</li> -->
-					</ul>
-				</div>
-			</nav>
-		</section>
-		
-		
-		<!-- Galerie -->
-		
-		<div id="carousel">
-			<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-				<ol class="carousel-indicators">
-					<li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-					<li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-					<li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-					
-				</ol>
-				<div class="carousel-inner">
-					<div class="carousel-item active">
-					<div id="imgc">
-						<img src="files/img/3.png" class="d-block img-fluid" alt="...">
-					</div>
-						<div class="carousel-caption d-none d-md-block">
-							<h3 style='font-size: 50px'>Modern Menu</h5> <!-- ich weiß dass ich das hier auch in css machen kann, aber ich dafür grad zu faul -->
-							<p style='font-weight: 500'>Tephra has a modern, easy to use main menu</p> <!-- genau so wie das hier -->
-						</div>
-					</div>
-					<div class="carousel-item">
-					<div id="imgc">
-						<img src="files/img/2.png" class="d-block img-fluid" alt="...">
-					</div>
-						<div class="carousel-caption d-none d-md-block">
-							<h3 style='font-size: 50px'>Simple, Clean ClickGUI</h5>
-							<p style='font-weight: 500'>the ClickGUI is easy to use, kept simple and clean</p>
-						</div>
-					</div>
-					<div class="carousel-item">
-					<div id="imgc">
-						<img src="files/img/1.png" class="d-block img-fluid" alt="...">
-					</div>
-						<div class="carousel-caption d-none d-md-block">
-							<h3 style='font-size: 50px'>ArrayList Customizations</h5>
-							<p style='font-weight: 500'>the ArrayList can be customized to however you want</p>
-						</div>
-					</div>
-					
-					
-				<a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-					<span class="sr-only">Previous</span>
-				</a>
-				<a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-					<span class="carousel-control-next-icon" aria-hidden="true"></span>
-					<span class="sr-only">Next</span>
-				</a>
-			</div> 
+<body data-spy="scroll" data-target="#navbarResponsive">
+
+<!--- Start Home Section -->
+<div id="home">
+
+	<!--- Navigation -->
+	<section id="nav-bar">
+		<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+			<a class="navbar-brand" hred="#"><img src="img/logo1.svg"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="#home">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#about">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#features">Features</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#test">Test</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#download">Download</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#contact">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</section>
+
+
+	<!--- Start Home Pic --->
+
+	<div class="landing">
+		<div class="home-wrap">
+			<div class="home-inner">
+			</div>
 		</div>
-	
+	</div>
 
-		<section id="about">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-6">
-					<h2>about</h2>
-					<div class="about-content" align="justify">
-						test
-					</div>
-					<button type="button" class="btn btn-dark">test </button>
-				</div>
-				
+	<div class="caption text-center">
+		<h1>Tephra Client</h1>
+		<h3>A ghost client for Minecraft 1.8</h3>
+		<a class="btn btn-outline-light btn-lg" href="#about">Learn more</a>
+	</div>
+</div>
+<!--- End Home Section -->
+
+
+
+<!--- Start About Section -->
+<div id="about" class="offset">
+
+	<div class="col-12 narrow text-center" style="padding-top: 3.6rem; padding-bottom: 3.6rem">
+		<section id="title2">
+			<h1 style="color: #c1c1c1;">Tephra for Minecraft 1.8</h1>
 		</section>
-		<!-- Slider -->
-		
-		
-		
-		
-		
-	</body>
-	
-	
-	
+		<section id="text2">
+			<p class="lead" style="color: #c1c1c1">Tephra is an advanced, so called "ghost client", for Minecraft version 1.8. This was made for the purpose of giving yourself an advantage without anyone else noticing it. This is also the reason why it has no extreme combat-related modules.</p>
+		</section>
+		<a class="btn btn-outline-dark btn-lg" href="https://github.com/zpeanut" target="_blank">Watch on Youtube</a>
+	</div>
+</div>
+<!--- End Course Section -->
+
+
+
+
+<!--- Start Features Section -->
+<div id="features" class="offset">
+
+	<div class="jumbotron">
+
+		<div class="narrow text-center">
+			<div class="col-12">
+				<h1 class="heading">Features</h1>
+				<div class="heading-underline"></div>
+			</div>
+
+			<div class="row text-center">
+				<div class="col-md-4">
+					<div class="feature">
+						<i class="fas fa-binoculars fa-4x" data-fa-transform="shrink-3 up-5"></i>
+						<h2>Render Mods</h2>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="feature">
+						<i class="fas fa-mouse-pointer fa-4x" data-fa-transform="shrink-3 up-5"></i>
+						<h2>Simple UI</h2>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="feature">
+						<i class="fas fa-list-ul fa-4x" data-fa-transform="shrink-3 up-5"></i>
+						<h2>Various Utilites</h2>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+</div>
+<!--- End Features Section -->
+
+<!--- Start Download Section -->
+<div id="test" class="offset">
+	<div class="fixed-background">
+		<div class="row dark text-center">
+
+			<div class="col-12">
+				<h1 class="heading">Textures</h1>
+				<div class="heading-underline"></div>
+			</div>
+
+			<div class="col-md-4">
+				<h2 class="resources">Java</h2>
+				<div class="feature">
+					<i class="fas fa-code fa-3x"></i>
+				</div>
+				<p class="lead">lorem ipsum oder so lol</p>
+			</div>
+			<div class="col-md-4">
+				<h2 class="resources">HTML 5</h2>
+				<div class="feature">
+					<i class="fas fa-code fa-3x"></i>
+				</div>
+				<p class="lead">lorem ipsum oder so lol</p>
+			</div>
+			<div class="col-md-4">
+				<h2 class="resources">HTML 5</h2>
+				<div class="feature">
+					<i class="fas fa-code fa-3x"></i>
+				</div>
+				<p class="lead">lorem ipsum oder so lol</p>
+			</div>
+		</div>
+
+		<div class="fixed-wrap">
+			<div class="fixed">
+
+			</div>
+
+		</div>
+
+	</div>
+	<!--- End Download Section -->
+
+
+	<!--- Start Download Section -->
+	<div id="download" class="offset">
+
+
+	</div>
+	<!--- End Download Section -->
+
+
+
+	<!--- Start Contact Section -->
+	<div id="contact" class="offset">
+
+
+	</div>
+	<!--- End Contact Section -->
+
+
+	<!--- Start Course Section -->
+	<div id="course" class="offset">
+
+
+
+	</div>
+	<!--- End Course Section -->
+
+	<!--- Script Source Files -->
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
+	<!--- End of Script Source Files -->
+
+</body>
 </html>
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tephra</title>
+	<link rel="stylesheet" href="bootstrap-4.1.3-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/fixed.css">
+	<link rel="shortcut icon" type="image/png" href="img/logocircle.png">
+</head>
+
+<body data-spy="scroll" data-target="#navbarResponsive">
+
+<!--- Start Home Section -->
+<div id="home">
+
+	<!--- Navigation -->
+	<section id="nav-bar">
+		<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+			<a class="navbar-brand" hred="#"><img src="img/logo1.svg"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="#home">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#about">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#features">Features</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#test">Test</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#download">Download</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#contact">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</section>
+
+
+	<!--- Start Home Pic --->
+
+	<div class="landing">
+		<div class="home-wrap">
+			<div class="home-inner">
+			</div>
+		</div>
+	</div>
+
+	<div class="caption text-center">
+		<h1>Tephra Client</h1>
+		<h3>A ghost client for Minecraft 1.8</h3>
+		<a class="btn btn-outline-light btn-lg" href="#about">Learn more</a>
+	</div>
+</div>
+<!--- End Home Section -->
+
+
+
+<!--- Start About Section -->
+<div id="about" class="offset">
+
+	<div class="col-12 narrow text-center" style="padding-top: 3.6rem; padding-bottom: 3.6rem">
+		<section id="title2">
+			<h1 style="color: #c1c1c1;">Tephra for Minecraft 1.8</h1>
+		</section>
+		<section id="text2">
+			<p class="lead" style="color: #c1c1c1">Tephra is an advanced, so called "ghost client", for Minecraft version 1.8. This was made for the purpose of giving yourself an advantage without anyone else noticing it. This is also the reason why it has no extreme combat-related modules.</p>
+		</section>
+		<a class="btn btn-outline-dark btn-lg" href="https://github.com/zpeanut" target="_blank">Watch on Youtube</a>
+	</div>
+</div>
+<!--- End Course Section -->
+
+
+
+
+<!--- Start Features Section -->
+<div id="features" class="offset">
+
+	<div class="jumbotron">
+
+		<div class="narrow text-center">
+			<div class="col-12">
+				<h1 class="heading">Features</h1>
+				<div class="heading-underline"></div>
+			</div>
+
+			<div class="row text-center">
+				<div class="col-md-4">
+					<div class="feature">
+						<i class="fas fa-binoculars fa-4x" data-fa-transform="shrink-3 up-5"></i>
+						<h2>Render Mods</h2>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="feature">
+						<i class="fas fa-mouse-pointer fa-4x" data-fa-transform="shrink-3 up-5"></i>
+						<h2>Simple UI</h2>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="feature">
+						<i class="fas fa-list-ul fa-4x" data-fa-transform="shrink-3 up-5"></i>
+						<h2>Various Utilites</h2>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+</div>
+<!--- End Features Section -->
+
+<!--- Start Download Section -->
+<div id="test" class="offset">
+	<div class="fixed-background">
+		<div class="row dark text-center">
+
+			<div class="col-12">
+				<h1 class="heading">Textures</h1>
+				<div class="heading-underline"></div>
+			</div>
+
+			<div class="col-md-4">
+				<h2 class="resources">Java</h2>
+				<div class="feature">
+					<i class="fas fa-code fa-3x"></i>
+				</div>
+				<p class="lead">lorem ipsum oder so lol</p>
+			</div>
+			<div class="col-md-4">
+				<h2 class="resources">HTML 5</h2>
+				<div class="feature">
+					<i class="fas fa-code fa-3x"></i>
+				</div>
+				<p class="lead">lorem ipsum oder so lol</p>
+			</div>
+			<div class="col-md-4">
+				<h2 class="resources">HTML 5</h2>
+				<div class="feature">
+					<i class="fas fa-code fa-3x"></i>
+				</div>
+				<p class="lead">lorem ipsum oder so lol</p>
+			</div>
+		</div>
+
+		<div class="fixed-wrap">
+			<div class="fixed">
+
+			</div>
+
+		</div>
+
+	</div>
+	<!--- End Download Section -->
+
+
+	<!--- Start Download Section -->
+	<div id="download" class="offset">
+
+
+	</div>
+	<!--- End Download Section -->
+
+
+
+	<!--- Start Contact Section -->
+	<div id="contact" class="offset">
+
+
+	</div>
+	<!--- End Contact Section -->
+
+
+	<!--- Start Course Section -->
+	<div id="course" class="offset">
+
+
+
+	</div>
+	<!--- End Course Section -->
+
+	<!--- Script Source Files -->
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
+	<!--- End of Script Source Files -->
+
+</body>
+</html>
+
+
+
+

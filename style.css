@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+
+body {
+
+  background-color: #191919;
+  overflow-x: hidden;
+  
+
+  @font-face {
+    font-family: 'Comfortaa', cursive;    
+  }
+
+  @font-face {
+    font-family: 'Century Gothic', sans-serif;    
+  }
+  
+  color: #e6e6e6;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.offset:before {
+  display: block;
+  content: "";
+  height: 4rem;
+  margin-top: -4.7rem;
+}
+
+.navbar {
+  text-transform: lowercase;
+  font-weight: 700;
+  font-size: .9rem;
+  letter-spacing: .1rem;
+  background-color: rgba(0, 0, 0, 0.4)!important;
+}
+
+.navbar-brand img {
+  height: 50px;
+  padding-left: 15px;
+}
+
+.navbar-nav li {
+  padding-right: .7rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #6f6f70;
+  padding-top: .8rem;
+  transition: 0.4s ease
+}
+
+#nav-bar ul li a:hover {
+  color: #ffffff!important;
+}
+
+.home-inner {
+  background-image: url(img/bgmain.png);
+}
+
+.caption {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 38%;
+  z-index: 1;
+  color: white;
+}
+
+.caption h1 {
+  font-family: 'Comfortaa', Arial, cursive;
+  
+  font-size: 7.2rem;
+  font-weight: 700;
+  text-shadow: .1rem .1rem .8rem black;
+  padding-bottom: 1rem;
+}
+
+h1 {
+  font-family: 'Comfortaa', Arial, cursive;
+}
+
+
+h3 {
+  font-family: 'Century Gothic', Arial, sans-serif;
+}
+
+h2 {
+  font-family: 'Comfortaa', Arial, cursive;
+}
+
+
+
+.caption h3 {
+
+  font-style: 2rem;
+  text-shadow: .1rem .1rem .5rem black;
+}
+
+.btn-lg {
+  font-size: 1.4rem;
+}
+
+.btn-outline-dark {
+  color: #c1c1c1; 
+}
+
+
+.fixed-background {
+  color: #c1c1c1;
+}
+
+.jumbotron {
+  margin-bottom: 0;
+  padding: 2rem 0 3.5rem;
+  border-radius: 0;
+  background-color: #242424;
+  color: #c1c1c1;
+}
+
+h3.heading {
+  
+}
+
+
+
+
+
+
+
+
+/*============= COURSE SECTION =============*/
+
+.narrow {
+  width: 75%;
+  margin: 1.5rem auto;
+  padding-top: 2rem;
+}
+.narrow h1 {
+    font-size: 2.4rem;
+  }
+.btn-secondary {
+  border-width: medium;
+  border-radius: 0;
+  padding: .6rem 1.2rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  margin: 1rem;
+  border-color: #1EBBA3;
+  background-color: #1EBBA3;
+  color: white;
+}
+.btn-secondary:hover,
+.btn-secondary:focus {
+  border-color: #189582;
+  background-color: #189582;
+  color: white;
+}
+
+
+
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
