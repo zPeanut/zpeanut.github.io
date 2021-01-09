@@ -81,6 +81,11 @@ h2 {
   color: white;
 }
 
+h2.desc {
+    font-weight: 200;
+
+}
+
 .caption h1 {
   font-family: 'Comfortaa', Arial, cursive;
   font-size: 7.2rem;
@@ -120,10 +125,17 @@ h2 {
 
 .jumbotron {
     margin-bottom: 0;
+    border-radius: 0;
     background-color: #242424;
     color: #c1c1c1;
-    margin-bottom: 2;
     padding: 2rem 0 3.5rem;
+}
+
+h3.heading {
+    font-family: 'Comfortaa', Arial, cursive;
+    font-size: 2.6rem;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 
