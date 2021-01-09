@@ -96,10 +96,13 @@ h2.desc {
   text-shadow: .1rem .1rem .8rem black;
 }
 
-.caption h3 {
-  font-style: 2rem;
-  padding-bottom: 1rem;
-  text-shadow: .1rem .1rem .5rem black;
+
+h2.subtitle {
+    font-family: 'Century Gothic', Arial, sans-serif;
+    font-style: 2rem;
+    padding-bottom: 1rem;
+    font-size: 1.6rem;
+    text-shadow: .1rem .1rem .5rem black;
 }
 
 .btn-lg {
