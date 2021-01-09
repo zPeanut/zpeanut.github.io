@@ -22,6 +22,18 @@ html {
   scroll-behavior: smooth;
 }
 
+h1 {
+  font-family: 'Comfortaa', Arial, cursive;
+}
+
+h3 {
+  font-family: 'Century Gothic', Arial, sans-serif;
+}
+
+h2 {
+  font-family: 'Comfortaa', Arial, cursive;
+}
+
 .offset:before {
   display: block;
   content: "";
@@ -32,7 +44,7 @@ html {
 .navbar {
   text-transform: lowercase;
   font-weight: 700;
-  font-size: .9rem;
+  font-size: 1.1rem;
   letter-spacing: .1rem;
   background-color: rgba(0, 0, 0, 0.4)!important;
 }
@@ -71,58 +83,49 @@ html {
 
 .caption h1 {
   font-family: 'Comfortaa', Arial, cursive;
-  
   font-size: 7.2rem;
   font-weight: 700;
   text-shadow: .1rem .1rem .8rem black;
-  padding-bottom: 1rem;
 }
-
-h1 {
-  font-family: 'Comfortaa', Arial, cursive;
-}
-
-
-h3 {
-  font-family: 'Century Gothic', Arial, sans-serif;
-}
-
-h2 {
-  font-family: 'Comfortaa', Arial, cursive;
-}
-
-
 
 .caption h3 {
-
   font-style: 2rem;
+  padding-bottom: 1rem;
   text-shadow: .1rem .1rem .5rem black;
 }
 
 .btn-lg {
-  font-size: 1.4rem;
+    border-radius: 2rem;
+    padding: .6rem 1.3rem;
+    font-size: 1.1rem;
 }
+
+.narrow {
+  width: 75%;
+  margin: 1.5rem auto;
+  padding-top: 2rem;
+}
+.narrow h1 {
+    font-size: 2.4rem;
+  }
+
 
 .btn-outline-dark {
   color: #c1c1c1; 
 }
-
 
 .fixed-background {
   color: #c1c1c1;
 }
 
 .jumbotron {
-  margin-bottom: 0;
-  padding: 2rem 0 3.5rem;
-  border-radius: 0;
-  background-color: #242424;
-  color: #c1c1c1;
+    margin-bottom: 0;
+    background-color: #242424;
+    color: #c1c1c1;
+    margin-bottom: 2;
+    padding: 2rem 0 3.5rem;
 }
 
-h3.heading {
-  
-}
 
 
 
@@ -133,31 +136,7 @@ h3.heading {
 
 /*============= COURSE SECTION =============*/
 
-.narrow {
-  width: 75%;
-  margin: 1.5rem auto;
-  padding-top: 2rem;
-}
-.narrow h1 {
-    font-size: 2.4rem;
-  }
-.btn-secondary {
-  border-width: medium;
-  border-radius: 0;
-  padding: .6rem 1.2rem;
-  font-size: 1.2rem;
-  text-transform: uppercase;
-  margin: 1rem;
-  border-color: #1EBBA3;
-  background-color: #1EBBA3;
-  color: white;
-}
-.btn-secondary:hover,
-.btn-secondary:focus {
-  border-color: #189582;
-  background-color: #189582;
-  color: white;
-}
+
 
 
 
