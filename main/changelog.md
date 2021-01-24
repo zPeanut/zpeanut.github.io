@@ -1,6 +1,6 @@
 # Changelog
 
-All changes of Tephra will be documented in this file.
+All changes of Tephra will be documented in this file. 
 Since v24, the versioning adheres to [Semantic Versioning]
 
 
