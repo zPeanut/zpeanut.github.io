@@ -4,9 +4,8 @@ All changes of Tephra will be documented in this file.
 Since v24, the versioning adheres to [Semantic Versioning]
 
 
-## 24.0.0  
-28th January 2021
-### Added  
+## 24.0.0
+### Added
 
 - added ItemPhysics Module
 - added NoHurtCam Module
@@ -18,7 +17,7 @@ Since v24, the versioning adheres to [Semantic Versioning]
 - added Lines to particles in the Main Menu
 
 
-### Changed 
+### Changed
 
 - The Client now runs on Minecraft version 1.8.8
 - Modules are now alphabetically sorted in the ClickGUI
