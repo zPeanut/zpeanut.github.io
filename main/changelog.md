@@ -202,7 +202,7 @@ Since v23, the versioning adheres to [Semantic Versioning]
 
 - added NoBob module
 
-## v9 (04.02.2018)
+## v9 (04.02.2019)
 
 ### Added
 
