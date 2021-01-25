@@ -4,7 +4,7 @@ All changes of Tephra will be documented in this file.
 Since v23, the versioning adheres to [Semantic Versioning]
 
 
-## v24.0 (28.01.2021)
+## v24.0 (25.01.2021)
 ### Added
 
 - added ItemPhysics Module
