@@ -3,7 +3,7 @@
 All changes of Tephra will be documented in this file.  
 Since v23, the versioning adheres to [Semantic Versioning]
 
-## 24.1 (27.01.2021)
+## v24.1 (27.01.2021)
 ### Added
 
 - Trajectories Module
