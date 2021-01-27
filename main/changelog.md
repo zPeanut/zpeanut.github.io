@@ -286,6 +286,7 @@ Tephra v1, a ghost client for LabyMod v2.7.75 for Minecraft 1.8.9
 
 - Added AutoClicker module
 - Added Sprint module
+- Added ChestStealer
 - Added SafeWalk module
 - Added Eagle module
 - Added Chams module
