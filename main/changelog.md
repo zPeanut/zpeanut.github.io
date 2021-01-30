@@ -3,6 +3,12 @@
 All changes of Tephra will be documented in this file.  
 Since v23, the versioning adheres to [Semantic Versioning]
 
+## v24.1.1 (30.01.2021)
+### Changed
+
+- Wrong Version File causing massive lags in main menu
+
+
 ## v24.1 (27.01.2021)
 ### Added
 
