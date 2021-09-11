@@ -84,10 +84,6 @@ html, body {
     }
 }
 
-.carousel-indicators {
-    display: none;
-}
-
 .navbar {
     font-family: 'Comfortaa', Arial, cursive;
     text-transform: lowercase;
