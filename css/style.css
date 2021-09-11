@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html, body {
+    height: 100vh;
+    width: 100%;
+    font-family: 'Comfortaa', Arial, sans-serif;
+    color: #222;
+    scroll-behavior: smooth;
+}
+/*---Media Queries --*/
+@media (max-width: 992px) {
+
+}
+@media (max-width: 768px) {
+
+}
+@media (max-width: 576px) {
+
+}
+
+.navbar {
+    font-family: 'Comfortaa', Arial, cursive;
+    text-transform: lowercase;
+    font-weight: 300;
+    font-size: 1.1rem;
+    letter-spacing: .1rem;
+    background-color: rgba(0, 0, 0, 0.15)!important;
+}
+
+.navbar-nav li {
+    padding-right: .7rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #000000;
+    padding-top: .8rem;
+    transition: 0.3s ease
+}
+
+#nav-bar ul li a:hover {
+    color: #ffffff;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel-caption h1 {
+    font-size: 600%;
+    text-shadow: 1px 1px 8px #000;
+}
+
+.carousel-caption h3 {
+    font-size: 200%;
+    text-shadow: 1px 1px 1px 8px;
+    padding: 1rem;
+}
+
+.welcome {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+.welcome hr {
+    border-top: 1px solid #b4b4b4;
+    width: 95%;
+    margin-top: .3rem;
+    margin-bottom: 1rem;
+}
+
+.fa-code {
+    font-size: 4em;
+    margin: 1.4rem;
+}
+
+.about-text {
+    margin-top: 1rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.download-section {
+    background: #f2f2f2;
+    margin-top: -1.8rem;
+}
+
+.socials-section {
+    background: #f2f2f2;
+    margin-top: -2.8rem;
+}
+
+.card {
+    border-radius: 25px;
+    background-color: #f2f2f2;
+    border-color: white;
+}
+
+.social a {
+    font-size: 4.5em;
+    padding: 3rem;
+}
+
+.fa-github {
+    color: #222;
+}
+
+.fa-youtube {
+    color: #bb0000;
+}
+
+.überschrift {
+    font-weight: bold;
+    text-transform: lowercase;
+    letter-spacing: .1rem;
+}
+
+.dev-img {
+    border-radius: 50%;
+    width: 50%;
+    height: 50%;
+    display:block;
+    margin:auto;
+    padding: 0.6rem;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+.offset:before {
+    display: block;
+    content: "";
+    height: 4rem;
+    margin-top: -5rem;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.devs {
+    padding: 5em;
+    width: 90%;
+    height: 90%;
+}
+
+.footer {
+    margin-top: 1rem;
+}
+
+.subtitle {
+    text-shadow: 1px 1px 8px #000;
+}
+
+
+/*---Firefox Bug Fix --*/
+.carousel-item {
+    transition: -webkit-transform 0.5s ease;
+    transition: transform 0.5s ease;
+    transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+    -webkit-backface-visibility: visible;
+    backface-visibility: visible;
+}
+
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+    padding: 1rem;
+}
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
