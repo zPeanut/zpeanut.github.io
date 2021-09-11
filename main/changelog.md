@@ -3,8 +3,19 @@
 All changes of Tephra will be documented in this file.  
 Since v23, the versioning adheres to [Semantic Versioning]
 
+## v24.1.1 (30.01.2021)
+### Fixed
 
-## v24.0 (28.01.2021)
+- Wrong Version File causing massive lags in main menu
+
+
+## v24.1 (27.01.2021)
+### Added
+
+- Trajectories Module
+- Boxes to sliders in ClickGUI
+
+## v24.0 (25.01.2021)
 ### Added
 
 - added ItemPhysics Module
@@ -202,7 +213,7 @@ Since v23, the versioning adheres to [Semantic Versioning]
 
 - added NoBob module
 
-## v9 (04.02.2018)
+## v9 (04.02.2019)
 
 ### Added
 
@@ -281,6 +292,7 @@ Tephra v1, a ghost client for LabyMod v2.7.75 for Minecraft 1.8.9
 
 - Added AutoClicker module
 - Added Sprint module
+- Added ChestStealer
 - Added SafeWalk module
 - Added Eagle module
 - Added Chams module
