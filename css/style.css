@@ -14,23 +14,23 @@ html, body {
     font-weight: 300;
     font-size: 1.1rem;
     letter-spacing: .1rem;
-    height: 80px;
-    background-color: rgba(0, 0, 0, 0.2)!important;
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    background-color: rgba(0, 0, 0, 0.15)!important;
 }
 
 .navbar-nav li {
     padding-right: .7rem;
 }
 
-.navbar-nav .nav-link {
-    color: #fff;
+.navbar-dark .navbar-nav .nav-link {
+    color: #a1a1a1;
     padding-top: .8rem;
-    transition: 0.3s ease;
-    text-shadow: .2rem .2rem 0.3rem black;
+    transition: 0.3s ease
 }
 
 #nav-bar ul li a:hover {
-    color: #878787;
+    color: #ffffff;
 }
 
 .video-background {
