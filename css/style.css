@@ -14,9 +14,9 @@ html, body {
     font-weight: 300;
     font-size: 1.1rem;
     letter-spacing: .1rem;
-    -webkit-backdrop-filter: blur(8px);
-    backdrop-filter: blur(8px);
-    background-color: rgba(0, 0, 0, 0.15)!important;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(4px);
+    background-color: rgba(33, 33, 33, 0.8)!important;
 }
 
 .navbar-nav li {
@@ -24,7 +24,7 @@ html, body {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: #a1a1a1;
+    color: #888;
     padding-top: .8rem;
     transition: 0.3s ease
 }
@@ -88,6 +88,7 @@ video {
     position: absolute;
     top: 38%;
     width: 100%;
+    padding-left: 3.5rem;
     color: white;
 }
 
@@ -117,6 +118,25 @@ video {
 .btn-lg:hover {
     border-color: rgba(255, 255, 255, 0.1);
     background: rgba(255, 255, 255, 0.8);
+}
+
+.download-section > a {
+    border-width: 1px;
+    border-radius: 40px;
+    width: 48%;
+    background: lightgray;
+    color: #4a4a4a;
+    font-size: 1.1rem;
+    padding: .6rem 1.3rem;
+    transition: all 0.3s ease 0s;
+}
+
+.download-section > a:hover {
+    background-color: darkgray;
+}
+
+.dl-text {
+    font-size: 1.2rem;
 }
 
 
@@ -174,7 +194,17 @@ video {
     margin-bottom: 1rem;
 }
 
+.fa-thumbs-up {
+    font-size: 4em;
+    margin: 1.4rem;
+}
+
 .fa-code {
+    font-size: 4em;
+    margin: 1.4rem;
+}
+
+.fa-bars {
     font-size: 4em;
     margin: 1.4rem;
 }
