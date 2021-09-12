@@ -15,15 +15,15 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#navbarResponsive">
 
 <!--- navbar -->
 
 <section id="nav-bar">
-    <nav class ="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <nav class ="navbar navbar-expand-md navbar-dark bg-dark fixed-top" (scroll)="onWindowScroll();">
         <div class="container-fluid">
             <a class="navbar-brand" href="#home">
-                <img src="img/Unbenannt.png", class="logo1", width=200, height=50>
+                <img src="img/white.svg", class="logo1", width=220, height=50>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
                 <span class="navbar-toggler-icon"></span>
@@ -31,7 +31,7 @@
 
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link" href="#home">home</a>
                     </li>
                     <li class="nav-item">
@@ -56,7 +56,7 @@
         <div class="video-wrap">
             <div id="video">
                 <video id="bgvid" autoplay loop muted playsinline>
-                    <source src="img/stars.mp4" type="video/mp4">
+                    <source src="img/video.mp4" type="video/mp4">
                 </video>
             </div>
         </div>
