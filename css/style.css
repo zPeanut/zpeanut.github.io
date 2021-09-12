@@ -123,7 +123,8 @@ video {
     border-width: 1px;
     border-radius: 40px;
     width: 48%;
-    background: lightgray;
+    background: #dbdbdb;
+    border-color: #dbdbdb;
     color: #4a4a4a;
     font-size: 1.1rem;
     padding: .6rem 1.3rem;
