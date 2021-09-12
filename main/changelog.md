@@ -1,305 +1,235 @@
 # Changelog
 
-All changes of Tephra will be documented in this file.  
-Since v23, the versioning adheres to [Semantic Versioning]
+All changes of Hydrogen are documented in this File
+Hydrogen adheres to [Semantic Versioning].
 
-## v24.1.1 (30.01.2021)
-### Fixed
+## v1.9.1
 
-- Wrong Version File causing massive lags in main menu
+released 6th Sep 2021
 
+- added tooltips to clickgui
+- fixed func_73734_a failed mixin apply on startup (thanks neyled!)
+- fixed credits button in main menu being 1px longer
 
-## v24.1 (27.01.2021)
-### Added
+## v1.9
 
-- Trajectories Module
-- Boxes to sliders in ClickGUI
+released 3rd Sep 2021
 
-## v24.0 (25.01.2021)
-### Added
+- added STap
+- added BowAimbot
+- added NoChatRect
+- added autoclicker "type" mode (right click, left click)
+- added autoclicker random ms option
+- added unbind option to clickgui
+- renamed "W-Tap" -> "WTap"
+- renamed "aim assist" to "aimassist"
+- moved WTap from movement to combat
+- fixed nochatrect crashing sometimes
+- mainmenu watermark is now drawn in ttf
 
-- added ItemPhysics Module
-- added NoHurtCam Module
-- Customizations to ArrayList (e.g. Rainbow Speed)
-- added a Loading Screen bar to visualize progress
-- added Chams Customizations (Players, Mobs)
-- added a ToolTip to every Module in the ClickGUI
-- add OldAnimations mod (e.g. old Blockhit, old Item Render etc.)
-- added Lines to particles in the Main Menu
+## v1.8.3
 
-### Fixed
+released 27th July 2021
 
-- Fixed Entities Setting in ESP Module
-- Fixed small visual Updates in the Main Menu
-- Fixed Items not drawing behind Walls while NameTags is enabled
-- Change AutoClicker to use CPS instead of milliseconds
-- Fixed ArrayList crash when enabling / disabling Modules too fast
+- fix update button not working when version is outdated
 
-### Changed
+## v1.8.2
 
-- The Client now runs on Minecraft version 1.8.8
-- Modules are now alphabetically sorted in the ClickGUI
-- ClickGUI Settings and main Panels now have an outline
+released 27th July 2021
 
-### Removed
+- fix outdated check (update notification) for real now
 
-- Parkour Module due to not having a purpose and not bypassing common AntiCheats anymore
-- OldItemRender module, now merged into OldAnimations module
-- XRay Module for complications with new 1.8.8 render engine, will be readded with customizations later on
-- Removed AltManager due to causing Session Issues
-- Removed Ingame Changelog for better transparency (moved to GitHub)
+## v1.8.1
 
+released 27th July 2021
 
+- fix chat dissapearing and chat history resetting when opening clickgui
 
-## v23.1 (07.01.2021)
+## v1.8
 
-### Fixed
+released 26th July 2021
 
-- Game crashing bug on startup
-- Bossbar not displayed correctly
+- add aim assist module
+- add targets select module
+- add fastbow module
+- add hitbox module
+- add reach module
+- fix outdated check in main menu
+- add setting to toggle font in clickgui (ttf / minecraft font)
+- add color picker to gui
+- main menu rect now has an outline
+- outdated check now works on patch versions (1.8.**x**)
+- fixed autoclicker clicking faster than intended
+- added startup sound (toggleable)
+- added credits screen to main menu
+- settings with the same name dont overwrite themselves anymore due to settings now being saved to the module itself
 
-## v23.0 (06.01.2021)
+## v1.7
 
-### Added
+released 14th July 2021
 
-- Added an Ingame Changelog screen
-- Added saving ClickGUI values
-- Added indication in ClickGUI whether Module has settings or not
-- Added AltManager in menu tab
-- Added ChestESP options to now include Hoppers, Dispensers etc.
+- added alt manager
+- added alt manager button to main menu (seperate menu coming soon when more custom guis are coming)
+- added thealtening support (in alt manager)
+- errors are now showing up correctly in console log
 
-### Fixed
+## v1.6.3
 
-- Fixed ClickGUI settings Tab overlapping
-- Fixed Hungerbar randomly dissapearing
-- Fixed being Stuck in Air while SafeWalk is enabled
+released 11th July 2021
 
-## v22 (01.01.2021)
+- add on click option to autoclicker
+- remove custom blur on clickgui, uses minecraft default one now
+- new default clickgui bind is now **LCONTROL**
 
-### Added
+## v1.6.2
 
-- Added NoChatRect module
-- Added a rainbow ArrayList option
+released 17th May 2021
 
-### Fixed
+- move clickgui to hud category
+- info (HUD) font is now drawn in correct SF UI font, instead of verdana
 
-- Fixed the FileSystem sometimes not saving values correctly
+## v1.6.1
 
+released 14th April 2021
 
-## v21 (31.12.2021)
+- fix hotbar drawn incorrectly when opening debug (f3) mode
+- fix crashing error ""ticksExisted" not located in target class" caused by wrong mixin
+- fix crashing error ""func_183501_a" not located in target class" caused my wrong mixin
+- correctly move clickgui to "hud / gui" category
+- new symbol on "settings marker" in clickgui (now shows "v" when extended)
 
-### Added
+## v1.6
 
-- Added a custom Loading Screen
-- Added new Menu Settings: GitHub, and a future AltManager
-
-### Fixed
-
-- Menu Screens not resetting panorama when entered / exited
-
-### Changed
-
-- UpdateManager for better visual clarity
-
-## v20 (29.12.2020)
-
-### Fixed
-
-- Game crashing bug in HUD when entering Nether
-
-## v19 (29.12.2020)
-
-### Added
-
-- Added DiscordRPC Compatibility
-
-### Removed
-
-- HUD Themes: Beta, Simple for internal rewrite
-
-## v18 (27.12.2020)
-
-### Fixed
-
-- Various UI Bugs and misalignments
-
-### Changed
-
-- Chams to now being Player only - customization soon
-- ArrayList now being on the left side
-
-## v17 (17.12.2020)
-
-### Added
-
-- Added a sliding ArrayList to simple Theme
-
-### Fixed
-
-- Watermark in Simple Theme being off by 2px
-
-## v16 (15.12.2020)
-
-###  Added
-
-- Added new Player Category
-- Added AutoRespawn Module
-- Added BedAura Module
-- Added a built in Update System
-- Added an Update Manager to download new versions
-- new HUD Themes: Beta and Simple
-
-### Changed
-
-- Previous HUD Theme now called: Tephra
-- Default HUD Theme now: Tephra
-- InventoryWalk moved to Player Caategory
-- ChestStealer moved to Player Category
-
-### Removed
-
-- Changelog System for being slow and inefficient
-- TabGUI for not serving the purpose i wanted to fullfil with it
-
-## v15 (09.07.2019)
-
-### Fixed
-
-- Game crashing bug at startup
-
-## v14 (09.07.2019)
-
-### Fixed
-
-- Various UI bugs
-
-### Changed
-
-- how the IngameHUD works for better performance
-
-## v13 (01.06.2019)
-
-### Added
-
-- a Changelog for better update transparency
-
-### Fixed
-
-- fixed Main menu displaying wrong version
-- fixed Performance Issues when opening ClickGUI
-
-## v12 (12.05.2019)
-
-### Added
-
-- added new Main menu, replacing the default one
-- added XRay Module
-
-### Changed
-
-- changed the ingame HUD, Watermark now being smaller and on the top left
-- changed Module colors to category specific ones
-
-## v11 (16.04.2019)
-
-### Added
-
-- added Parkour Module
-- added AirStrafe Module
-
-## v10 (03.03.2019)
-
-### Added
-
-- added NoBob module
-
-## v9 (04.02.2019)
-
-### Added
-
-- Added ItemESP module
-
-### Fixed
-
-- Fixed ESP not drawing correctly
-
-## v8 (22.12.2018)
-
-### Fixed
-
-- Fixed visual TabGUI bugs
-
-## v7 (20.12.2018)
-
-### Fixed
-
-- Fixed TabGUI not drawing Modules correctly
-- Fixed TabGUI switching Module places
-- Fixed TabGUI inconsistently toggling modules
-
-## v6 (19.12.2018)
-
-### Added
-
-- added ClickGUI values (e.g. GuiRed, GuiBlue etc.)
-- added TabGUI for better access to modules
-
-## v5 (4.08.2018)
-
-### Fixed
-
-- fixed NameTags not drawing Armor correctly sometimes
-
-## v4 (12.05.2018)
-
-### Added
-
-- Added NameTags module
-
-## v3 (26.03.2018)
-
-### Added
-
-- added ChestESP Module
-
-## v2.1 (16.01.2018)
-
-### Fixed
-
-- fixed ClickGUI crashing when opened in other dimensions
-
-## v2 (12.01.2018)
-
-### Added
-
-- added NameTags module
-
-### Changed
-
-- Updated ClickGUI for better visual clarity
-- now runs on Minecraft 1.8
-- complete internal Rewrite
-
-### Removed
-
-- removed LabyMod as dependency
-
-## v1 (22.10.2017 - Initial Release)
-
-Tephra v1, a ghost client for LabyMod v2.7.75 for Minecraft 1.8.9
-
-### Added
-
-- Added AutoClicker module
-- Added Sprint module
-- Added ChestStealer
-- Added SafeWalk module
-- Added Eagle module
-- Added Chams module
-- Added ESP module
-- Added basic HUD implementation, containing Coordinates and FPS
-- Added basic ClickGUI implementation
-
+released 14th March 2021
+
+- fix font issues in 1.5
+- add command system
+- add bind command
+- add toggle command
+- add help command
+- the "H" on the new watermark is now lowercase
+- hud hotbar is now blurred
+- hotbar font has now been correctly fixed to SF_UI (previously verdana)
+- more particles in main menu!
+
+## v1.5
+
+released 12th March 2021
+
+- add custom main menu
+- add toggleable option for custom main menu in hud category
+- add rainbowsetting to main menu
+- add outdated check
+- add updater to main menu
+- add nohurtcam
+- fixed storageesp category
+- add bedaura
+- add bedesp
+- remove velocity
+- change font in hud from verdana -> SF-UI
+- fix arraylist errors
+- rename no-bob back to nobob
+- add color and outline option to itemesp
+- fix items drawing above nametags above yourself
+
+
+## v1.4.2
+
+released 26th February 2021
+
+- fix several visual bugs
+
+## v1.4.1
+
+released 24th February 2021
+
+- fix arraylist outline
+- wtap now only happens when hitting near an enemy
+- nobob has been renamed to "no-bob"
+
+## v1.4
+
+released 21st February 2021
+
+- arraylist slide speed can now be changed
+- custom hotbar added
+- changed clickgui blur to overlap inventory and gui
+- left aligned arraylist has been removed
+- watermark background now has an outline
+- eagle has been renamed to fastbridge
+- airstrafe module has been added
+- autoclicker now actually presses leftclick
+- custom font has been added
+- clickgui has now added ttf font setting
+- the ingamehud is now drawn in ttf font (verdana)
+- added toggleable 24/12h time format
+- info alignment added (left or right)
+- arraylist color now has a category specific option (i.e. combat is orange, player is yellow etc.)
+- fixed drawrect bug in clickgui
+- fixed crash bug when enabling fastbridge
+- add antiafk module
+- add velocity module
+- add flight module
+- add itemesp module
+
+## v1.3
+
+released 13th February 2021
+
+- modules now stay enabled when closing and starting the game
+- add nametags module
+- add cheststealer module
+- add inventorywalk module
+- add clickgui module descriptions
+- add nospeedfov module
+- add trajectories module
+- add nochatrect module
+- add storageesp module
+- setting values in clickgui now draw righthand sided
+- keybind in clickgui now has a seperator to differienciate from other settings
+
+## v1.2
+
+released 8th February 2021
+
+- fixed render bug caused by outlineesp
+- add rainbow array list
+- watermark now always stays on the left side
+- coordinates, time and fps added to hud
+- renamed to hydrogen
+- add safewalk module
+- add fullbright module
+- made clickgui colors darker
+- added blur option to clickgui
+- added optional entity setting to outlineesp
+
+## v1.1
+
+released 6th February 2021
+
+- added autoclicker cps support
+- added triggerbot, with cps support
+- hud no longer draws in array
+- clickgui default key now lshift
+- fixed outlineesp not drawing on players
+- add nobob module
+
+## v1.0
+
+released 5th February 2021
+
+- fixed game crash on startup
+- fixed game crash when using sprint or eagle
+- added chams module
+- added autosprint
+- added fastplace
+- added clickgui
+- added ingame hud
+- added eagle module
+- added saving clickgui values and binds
+
+Client created on the 2nd February 2021.   
+Original Client which Hydrogen is based off of *(Tephra for Minecraft 1.8.8)*, was released on the 22nd October 2017.
 
 
 
