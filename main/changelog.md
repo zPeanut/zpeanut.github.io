@@ -1,7 +1,9 @@
 # Changelog
 
 All changes of Hydrogen are documented in this File
-Hydrogen adheres to [Semantic Versioning].
+Hydrogen adheres to [Semantic Versioning].  
+  
+Back to the [homepage].
 
 ## v1.9.1
 
@@ -236,3 +238,4 @@ Original Client which Hydrogen is based off of *(Tephra for Minecraft 1.8.8)*, w
 
 
 [Semantic Versioning]: http://semver.org/spec/v2.0.0.html
+[homepage]: https://zpeanut.github.io/
