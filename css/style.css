@@ -14,21 +14,23 @@ html, body {
     font-weight: 300;
     font-size: 1.1rem;
     letter-spacing: .1rem;
-    background-color: rgba(0, 0, 0, 0.15)!important;
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.2)!important;
 }
 
 .navbar-nav li {
     padding-right: .7rem;
 }
 
-.navbar-dark .navbar-nav .nav-link {
-    color: #000000;
+.navbar-nav .nav-link {
+    color: #fff;
     padding-top: .8rem;
-    transition: 0.3s ease
+    transition: 0.3s ease;
+    text-shadow: .2rem .2rem 0.3rem black;
 }
 
 #nav-bar ul li a:hover {
-    color: #ffffff;
+    color: #878787;
 }
 
 .video-background {
