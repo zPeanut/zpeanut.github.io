@@ -1,6 +1,6 @@
 # Changelog
 
-All changes of Hydrogen are documented in this File
+All changes of Hydrogen are documented in this File.  
 Hydrogen adheres to [Semantic Versioning].  
   
 Back to the [homepage].
