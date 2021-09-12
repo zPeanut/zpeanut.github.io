@@ -8,82 +8,6 @@ html, body {
     scroll-behavior: smooth;
 }
 
-.carousel-caption {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-.carousel-caption h1 {
-    font-size: 1000%;
-    text-shadow: 1px 1px 8px #000;
-}
-
-.carousel-caption h3 {
-    font-size: 600%;
-    text-shadow: 1px 1px 1px 8px;
-    padding: 1rem;
-}
-
-/*---Media Queries --*/
-@media (max-width: 992px) {
-    .social a {
-        font-size: 4em;
-        padding: 2rem;
-    }
-    .carousel-caption h1 {
-        font-size: 600%;
-        text-shadow: 1px 1px 8px #000;
-    }
-
-    .carousel-caption h3 {
-        font-size: 200%;
-        text-shadow: 1px 1px 1px 8px;
-        padding: 1rem;
-    }
-}
-@media (max-width: 768px) {
-    .carousel-caption {
-        top: 45%;
-    }
-
-    .carousel-caption h1 {
-        font-size: 350%;
-    }
-
-    .carousel-caption h2 {
-        font-size: 140%;
-        padding: .2rem;
-    }
-    .display-4 {
-        font-size: 200%;
-    }
-    .social a {
-        font-size: 2.5em;
-        padding: 1.2rem;
-    }
-}
-@media (max-width: 576px) {
-    .carousel-caption {
-        top: 40%;
-    }
-
-    .carousel-caption h1 {
-        font-size: 250%;
-    }
-
-    .carousel-caption h2 {
-        font-size: 110%;
-    }
-    .display-4 {
-        font-size: 160%;
-    }
-    .social a {
-        font-size: 2em;
-        padding: 0.7rem;
-    }
-}
-
 .navbar {
     font-family: 'Comfortaa', Arial, cursive;
     text-transform: lowercase;
@@ -107,9 +31,132 @@ html, body {
     color: #ffffff;
 }
 
-.carousel-inner img {
+.video-background {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.video-wrap {
+    clip: rect(0, auto, auto, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
+}
+
+#video {
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    will-change: transform;
+    z-index: -1000;
+}
+
+video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background: url("") no-repeat;
+    background-size: cover;
+    transition: 1s opacity;
+}
+
+.row, .container-fluid {
+    margin-left: 0px!important;
+    margin-right: 0px!important;
+}
+
+.caption {
+    position: absolute;
+    top: 38%;
+    width: 100%;
+    color: white;
+}
+
+.caption h1 {
+    font-size: 700%;
+    font-weight: 0;
+    text-shadow: .1rem .1rem .8rem gray;
+    padding-bottom: 1rem;
+}
+
+.caption h3 {
+    font-size: 2rem;
+    text-shadow: .1rem .1rem .5rem black;
+    padding-bottom: 1rem;
+}
+
+.btn-lg {
+    border-width: 1px;
+    border-color: rgba(255, 255, 255, 0.7);
+    border-radius: 40px;
+    background: transparent;
+    font-size: 1.1rem;
+    padding: .6rem 1.3rem;
+    transition: all 0.3s ease 0s;
+}
+
+.btn-lg:hover {
+    border-color: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.8);
+}
+
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+    .social a {
+        font-size: 4em;
+        padding: 2rem;
+    }
+}
+@media (max-width: 768px) {
+    .display-4 {
+        font-size: 280%;
+    }
+    .social a {
+        font-size: 2.5em;
+        padding: 1.2rem;
+    }
+    .caption h1 {
+        font-size: 500%;
+        letter-spacing: .1rem;
+        padding-bottom: .5rem;
+    }
+
+    .caption h3 {
+        font-size: 140%;
+        padding-bottom: 1.2rem;
+    }
+
+    .btn-lg {
+        font-size: 1rem;
+        padding: .5rem 1rem;
+    }
+}
+@media (max-width: 576px) {
+    .display-4 {
+        font-size: 240%;
+    }
+    .social a {
+        font-size: 2em;
+        padding: 0.7rem;
+    }
 }
 
 .welcome {
