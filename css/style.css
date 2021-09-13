@@ -6,7 +6,6 @@ html, body {
     font-family: 'Comfortaa', Arial, sans-serif;
     color: #575757;
     scroll-behavior: smooth;
-    overflow-x: hidden;
 }
 
 .navbar {
