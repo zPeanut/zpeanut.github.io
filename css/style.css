@@ -8,11 +8,58 @@ html, body {
     scroll-behavior: smooth;
 }
 
+@font-face {
+    font-family: 'SF UI Display Ultralight';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF UI Display Ultralight'), url('/font/sf-ui-display-ultralight.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'SF UI Display Thin';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF UI Display Thin'), url('/font/sf-ui-display-thin.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'SF UI Display Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF UI Display Light'), url('/font/sf-ui-display-light.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'SF UI Display Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF UI Display Medium'), url('/font/sf-ui-display-medium.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'SF UI Display Semibold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF UI Display Semibold'), url('/font/sf-ui-display-semibold.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'SF UI Display Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF UI Display Bold'), url('/font/sf-ui-display-bold.woff') format('woff');
+}
+
 .navbar {
-    font-family: 'Comfortaa', Arial, cursive;
+    font-family: "SF UI Display", Arial, sans-serif;
     text-transform: lowercase;
     font-weight: 300;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     letter-spacing: .1rem;
     -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(4px);
@@ -21,10 +68,11 @@ html, body {
 
 .navbar-nav li {
     padding-right: .7rem;
+    padding-bottom: .3rem;
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: #888;
+    color: #aaa;
     padding-top: .8rem;
     transition: 0.3s ease
 }
@@ -91,15 +139,16 @@ video {
 }
 
 .caption h1 {
-    font-size: 700%;
+    font-family: "SF UI Display Ultralight", Arial, sans-serif;
+    font-size: 900%;
     font-weight: 0;
     text-shadow: .1rem .1rem .8rem gray;
     padding-bottom: 1rem;
 }
 
 .caption h3 {
+    text-shadow: 1px 1px 8px #000;
     font-size: 2rem;
-    text-shadow: .1rem .1rem .5rem black;
     padding-bottom: 1rem;
 }
 
@@ -119,13 +168,15 @@ video {
 }
 
 .download-section > a {
+    font-family: "SF UI Display Boldi", Arial, sans-serif;
     border-width: 1px;
     border-radius: 40px;
-    width: 48%;
-    background: #f2f2f2;
-    border-color: #f2f2f2;
+    width: 46%;
+    background: #ddd;
+    border-color: #ddd;
     color: #4a4a4a;
     font-size: 1.1rem;
+    margin-right: 2rem;
     padding: .6rem 1.3rem;
     transition: all 0.3s ease 0s;
 }
@@ -134,8 +185,16 @@ video {
     background-color: darkgray;
 }
 
+.dl-title {
+    margin-top: -4rem;
+}
+
 .dl-text {
     font-size: 1.2rem;
+}
+
+.about-title {
+    font-family: "SF UI Display", Arial, sans-serif;
 }
 
 
@@ -193,6 +252,7 @@ video {
     margin-bottom: 1rem;
 }
 
+
 .fa-thumbs-up {
     font-size: 4em;
     margin: 1.4rem;
@@ -215,12 +275,13 @@ video {
 }
 
 .download-section {
-    background: #ffffff;
-    margin-top: -1rem;
+    margin-top: 3rem;
+    background: #f2f2f2;
 }
 
 .socials-section {
     margin-top: 2rem;
+    background: #f2f2f2;
 }
 
 .card {
@@ -243,26 +304,24 @@ video {
 }
 
 .überschrift {
-    font-weight: bold;
+    font-family: "SF UI Display Thin", Arial, sans-serif;
+    font-size: 500%;
     text-transform: lowercase;
     letter-spacing: .1rem;
 }
 
 .dev-img {
     border-radius: 50%;
-    width: 40%;
-    height: 40%;
-    display:block;
-    margin:auto;
-    padding: 2rem;
+    margin: 0 auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 50%;
+    height: 50%;
 }
 
 .carousel {
-    border-left: 100px;
-    width: 100%;
-    padding: 7rem;
-    background: #f2f2f2;
-    margin-top: -2rem;
+    width: 70%;
+    margin: 0 auto;
 }
 
 
@@ -288,22 +347,14 @@ video {
     height: 90%;
 }
 
-.card {
-    background-color: #ffffff;
-}
-
 .dev-section {
-    background: #f2f2f2;
+    background: #ffffff;
 }
 
 .footer {
     margin-top: 1rem;
-    background: #f2f2f2;
 }
 
-.subtitle {
-    text-shadow: 1px 1px 8px #000;
-}
 
 
 /*---Firefox Bug Fix --*/
