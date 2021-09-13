@@ -6,6 +6,7 @@ html, body {
     font-family: 'Comfortaa', Arial, sans-serif;
     color: #575757;
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 .navbar {
@@ -123,8 +124,8 @@ video {
     border-width: 1px;
     border-radius: 40px;
     width: 48%;
-    background: #dbdbdb;
-    border-color: #dbdbdb;
+    background: #f2f2f2;
+    border-color: #f2f2f2;
     color: #4a4a4a;
     font-size: 1.1rem;
     padding: .6rem 1.3rem;
@@ -216,12 +217,11 @@ video {
 }
 
 .download-section {
-    background: #f2f2f2;
-    margin-top: -1.8rem;
+    background: #ffffff;
+    margin-top: -1rem;
 }
 
 .socials-section {
-    background: #f2f2f2;
     margin-top: 2rem;
 }
 
@@ -259,6 +259,14 @@ video {
     padding: 2rem;
 }
 
+.carousel {
+    border-left: 100px;
+    width: 100%;
+    padding: 7rem;
+    background: #f2f2f2;
+    margin-top: -2rem;
+}
+
 
 .col-centered{
     float: none;
@@ -282,8 +290,17 @@ video {
     height: 90%;
 }
 
+.card {
+    background-color: #ffffff;
+}
+
+.dev-section {
+    background: #f2f2f2;
+}
+
 .footer {
     margin-top: 1rem;
+    background: #f2f2f2;
 }
 
 .subtitle {
