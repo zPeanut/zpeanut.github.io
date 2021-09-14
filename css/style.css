@@ -137,6 +137,10 @@ video {
     color: white;
 }
 
+.missing-text {
+    padding-top: 10rem;
+}
+
 .caption h1 {
     font-family: "SF UI Display Ultralight", Arial, sans-serif;
     font-size: 900%;
