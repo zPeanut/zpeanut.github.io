@@ -58,7 +58,6 @@ html, body {
 .navbar {
     font-family: "SF UI Display", Arial, sans-serif;
     text-transform: lowercase;
-    height: 8%;
     font-weight: 300;
     font-size: 1.2rem;
     letter-spacing: .1rem;
@@ -203,6 +202,15 @@ video {
         font-size: 4em;
         padding: 2rem;
     }
+    .caption h3 {
+        font-size: 140%;
+        padding-bottom: 1.2rem;
+    }
+    .caption h1 {
+        font-size: 500%;
+        letter-spacing: .1rem;
+        padding-bottom: .5rem;
+    }
 }
 @media (max-width: 768px) {
     .display-4 {
@@ -212,12 +220,6 @@ video {
         font-size: 2.5em;
         padding: 1.2rem;
     }
-    .caption h1 {
-        font-size: 500%;
-        letter-spacing: .1rem;
-        padding-bottom: .5rem;
-    }
-
     .caption h3 {
         font-size: 140%;
         padding-bottom: 1.2rem;
@@ -235,6 +237,15 @@ video {
     .social a {
         font-size: 2em;
         padding: 0.7rem;
+    }
+    .caption h1 {
+        font-size: 400%;
+        letter-spacing: .1rem;
+        padding-bottom: .5rem;
+    }
+    .caption h3 {
+        font-size: 110%;
+        padding-bottom: 1.2rem;
     }
 }
 
