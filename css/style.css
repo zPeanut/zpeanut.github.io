@@ -68,7 +68,6 @@ html, body {
 
 .navbar-nav li {
     padding-right: .7rem;
-    padding-bottom: .3rem;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -168,15 +167,14 @@ video {
 }
 
 .download-section > a {
-    font-family: "SF UI Display Boldi", Arial, sans-serif;
+    font-family: "Arial", Arial, sans-serif;
     border-width: 1px;
     border-radius: 40px;
-    width: 46%;
+    width: 48%;
     background: #ddd;
     border-color: #ddd;
     color: #4a4a4a;
     font-size: 1.1rem;
-    margin-right: 2rem;
     padding: .6rem 1.3rem;
     transition: all 0.3s ease 0s;
 }
