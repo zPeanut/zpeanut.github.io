@@ -199,6 +199,12 @@ video {
     font-family: "SF UI Display", Arial, sans-serif;
 }
 
+.überschrift {
+    font-family: "SF UI Display Thin", Arial, sans-serif;
+    font-size: 500%;
+    text-transform: lowercase;
+    letter-spacing: .1rem;
+}
 
 /*---Media Queries --*/
 @media (max-width: 992px) {
@@ -214,6 +220,9 @@ video {
         font-size: 500%;
         letter-spacing: .1rem;
         padding-bottom: .5rem;
+    }
+    .überschrift {
+        font-size: 400%;
     }
 }
 @media (max-width: 768px) {
@@ -233,6 +242,9 @@ video {
         font-size: 1rem;
         padding: .5rem 1rem;
     }
+    .überschrift {
+        font-size: 350%;
+    }
 }
 @media (max-width: 576px) {
     .display-4 {
@@ -250,6 +262,9 @@ video {
     .caption h3 {
         font-size: 110%;
         padding-bottom: 1.2rem;
+    }
+    .überschrift {
+        font-size: 300%;
     }
 }
 
@@ -317,13 +332,6 @@ video {
     color: #bb0000;
 }
 
-.überschrift {
-    font-family: "SF UI Display Thin", Arial, sans-serif;
-    font-size: 500%;
-    text-transform: lowercase;
-    letter-spacing: .1rem;
-}
-
 .dev-img {
     border-radius: 50%;
     margin: 0 auto;
@@ -384,20 +392,3 @@ video {
 [class*="col-"] {
     padding: 1rem;
 }
-
-/*
-Extra small (xs) devices (portrait phones, less than 576px)
-No media query since this is the default in Bootstrap
-
-Small (sm) devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
-
-Medium (md) devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
-
-Large (lg) devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
-
-Extra (xl) large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
-*/
