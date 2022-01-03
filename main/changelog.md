@@ -5,6 +5,66 @@ Hydrogen adheres to [Semantic Versioning].
   
 Back to the [homepage].
 
+## v1.11.3
+
+released 3rd jan 2022
+
+- fix reach not working
+
+## v1.11.2
+
+released 1st jan 2022
+
+- fix autosprint still sprinting, even though its turned off
+
+## v1.11.1
+
+released 1st jan 2022
+
+- remove frame counter from main menu accidentally left in from dev build
+- fix watermark not drawing
+- fix non stable string showing on stable builds in main menu
+- fix non visible modules showing during deactivation in arraylist
+
+## v1.11
+
+released 31st Dec 2021
+
+- added breadcrumbs module
+- added nobowfov module
+- added cameraclip module
+- added autobow module
+- added antiblind module
+- added welcome message to first time users of hydrogen
+- added tooltip to version on main menu
+- added coordinates style to info (1-line or 3-line)
+- added changelog button to mainmenu
+- change credits button on main menu to link to the github readme instead of seperate gui
+- change default watermark to old
+- change default hud font to Minecraft
+- changed the update reminder - now at bottom of main menu
+- move safewalk to movement category
+- fix hotbar date and time locations
+- remove dropshadow setting from hud
+
+## v1.10
+
+released 24th Dec 2021
+
+- add ttfchat module
+- add panic module 
+- add nameprotect module
+- add tracers module
+- add murdermystery module
+- add pingspoof module
+- add visible setting to clickgui (whether they show up in the arraylist or not)
+- add murdermystery setting to nametags
+- add random ms setting to triggerbot and autoclicker
+- add onclick setting to aimbot
+- move nospeedfov to render category
+- remove esp modes (not working)
+- fix arraylist massively lagging when many modules were activated
+
 ## v1.9.1
 
 released 6th Sep 2021
@@ -230,11 +290,8 @@ released 5th February 2021
 - added eagle module
 - added saving clickgui values and binds
 
-Client created on the 2nd February 2021.   
-Original Client which Hydrogen is based off of *(Tephra for Minecraft 1.8.8)*, was released on the 22nd October 2017.
-
-
-
+Hydrogen (then named Phosphor), was created on the 2nd February 2021.   
+The original client which Hydrogen is based off of *(Tephra for Minecraft 1.8.8)*, was released on the 22nd October 2017.
 
 
 [Semantic Versioning]: http://semver.org/spec/v2.0.0.html
