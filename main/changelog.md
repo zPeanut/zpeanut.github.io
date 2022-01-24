@@ -5,6 +5,55 @@ Hydrogen adheres to [Semantic Versioning].
   
 Back to the [homepage].
 
+## v1.12
+
+released 22nd jan 2022
+
+- **new settings config using .json filetype** 
+	- **your old settings WILL be imported over to the new configsystem**, provided you have launched 1.12 once
+	- your old setting files will however be deleted. meaning starting an older version of hydrogen, none of your previously saved settings will be present.
+- added potioneffects to hud (show active potion effects)
+- added freecam module (noclip not working yet)
+- added noswing module (disables swing animaion, client or server side)
+- added hitanimation module ("german-like" different hit animation)
+- added autotype module (using new text button), lets you execute text or a command on toggle
+- added **animaitons module**, including:
+	- **BlockHit** - adds back the pre 1.8 blockhit animation
+	- **Rod** - scales the Rod back to pre 1.8 style
+	- **Bow** - scales the Bow back to pre 1.8 style, clicking and shooting will be smooth rather than instant
+	- **Third-person Block** - blocking in thirdperson is reverted back how it looked pre 1.8
+	- **Armor Damage** - hitting an enemy in 1.8 doesnt turn the armor red, pre 1.8 it did. this module reverts back to how it was pre 1.8.
+	- **Inventory Offset** - having an potion enabled, shifts the inventory to the right in 1.8. pre 1.8, this does not occur.
+	- **Dropped Items** - makes dropped items appear 2D again, how it used to be pre 1.8
+	- **Tab List** - reverts the tablist to how it looked pre 1.8.
+- **added HUD styles**, current ones are:
+	- **New** (current layout, using TTF font) _(default)_
+	- **Classic** (legacy phosphor _(hydrogen's old name)_ layout, using minecraft font. present from versions 1.0 - 1.4)
+	- **Tephra** (legacy tephra layout (imported from old tephra client, which hydrogen is based on))
+- added text button to clickgui
+- added particles setting to clickgui
+- added rainbow color count setting to arraylist
+- added arraylist sorting method setting
+- added nameprotect name setting (using new text button)
+- added nameprotect other user setting (changes other peoples names to a given value (using new text button))
+- added new welcome text on main menu, on first startup
+- added welcome text messages on first startup once you load a world
+- deprecate old setting system, will be removed in later released
+- main menu buttons have been centered
+- the watermark module, mainmenu module and arraylist module are enabled by default on first startup
+- fix minecraft font clickgui text being "squished"
+- clickgui modules are sorted by alphabet again, not by length
+- remove airstrafe and flight module (not used at all)
+- remove hydrogen being shown on the forge mod list
+
+this was released on commit 727.
+
+## 1.11.4
+
+released 4th jan 2022
+
+- add splash to main menu
+
 ## v1.11.3
 
 released 3rd jan 2022
