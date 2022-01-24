@@ -7,7 +7,7 @@ Back to the [homepage].
 
 ## v1.12
 
-released 22nd jan 2022
+released 22nd January 2022
 
 - **new settings config using .json filetype** 
 	- **your old settings WILL be imported over to the new configsystem**, provided you have launched 1.12 once
@@ -50,25 +50,25 @@ this was released on commit 727.
 
 ## 1.11.4
 
-released 4th jan 2022
+released 4th January 2022
 
 - add splash to main menu
 
 ## v1.11.3
 
-released 3rd jan 2022
+released 3rd January 2022
 
 - fix reach not working
 
 ## v1.11.2
 
-released 1st jan 2022
+released 1st January 2022
 
 - fix autosprint still sprinting, even though its turned off
 
 ## v1.11.1
 
-released 1st jan 2022
+released 1st January 2022
 
 - remove frame counter from main menu accidentally left in from dev build
 - fix watermark not drawing
@@ -77,7 +77,7 @@ released 1st jan 2022
 
 ## v1.11
 
-released 31st Dec 2021
+released 31st December 2021
 
 - added breadcrumbs module
 - added nobowfov module
@@ -98,7 +98,7 @@ released 31st Dec 2021
 
 ## v1.10
 
-released 24th Dec 2021
+released 24th December 2021
 
 - add ttfchat module
 - add panic module 
@@ -116,7 +116,7 @@ released 24th Dec 2021
 
 ## v1.9.1
 
-released 6th Sep 2021
+released 6th September 2021
 
 - added tooltips to clickgui
 - fixed func_73734_a failed mixin apply on startup (thanks neyled!)
@@ -124,7 +124,7 @@ released 6th Sep 2021
 
 ## v1.9
 
-released 3rd Sep 2021
+released 3rd September 2021
 
 - added STap
 - added BowAimbot
