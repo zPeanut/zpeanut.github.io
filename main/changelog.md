@@ -5,6 +5,48 @@ Hydrogen adheres to [Semantic Versioning].
   
 Back to the [homepage].
 
+## v1.12.5
+
+released 4th july 2022
+
+- avoid crash when using hydrogen together with sk1er mods
+
+## v1.12.4
+
+released 1st may 2022
+
+- reach distance can now be modified to decimal places
+- fixed random crashes due to arraylist
+
+## v1.12.3
+
+released 18th february 2022
+
+- remove debug print lines when starting up
+- removed bowaimbot (not working properly, readding in 1.13 or later)
+- removed aimassist (not working properly, causing crashes, readding in 1.13 or later)
+- removed targetselect (component of aimassist, future aimassist revamp wont have this)
+
+## v1.12.2
+
+released 18th february 2022
+
+- **fixed a bug that was causing the game to crash when trying to eat (thanks toast!)**
+- changed reach distance to int only values
+- fix watermark settings not working in the **new** theme
+
+
+## v1.12.1
+
+released 1st februrary 2022
+
+- added git commit hash to main menu version hover string
+- reworked autoclicker to make it better
+- reworked blur type in the clickgui to cover entire screen (ingame hud is now obscured by it)
+- removed blur from hotbar module (causing issues with other OS's and optifine, aswell as OpenGL)
+- fixed old sneak being activated without animations module being on
+- fixed flickering sneak effect
+
 ## v1.12
 
 released 22nd January 2022
