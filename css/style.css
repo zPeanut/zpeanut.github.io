@@ -29,6 +29,11 @@ html, body {
 .intro-img {
     width: 85%;
     border-radius: 8px;
+    user-select: none;
+    pointer-events: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
 }
 
 .intro-text {
