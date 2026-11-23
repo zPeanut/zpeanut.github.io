@@ -49,11 +49,51 @@ html, body {
     transition: color .2s;
 }
 
+.project-list {
+    display: grid;
+    gap: 0.9rem;
+    margin-top: 0.8rem;
+    margin-left: -0.6rem;
+}
+
+.project-item {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    min-width: 0;
+}
+
+.project-icon {
+    width: 15%;
+    padding: 8px;
+    border-radius: 11px;
+}
+
+.project-details {
+    min-width: 0;
+    line-height: 1.35;
+}
+
+.project-name {
+    display: block;
+    font-size: 0.95rem;
+    font-weight: 700;
+}
+
+.project-description {
+    display: block;
+    margin-top: 0.1rem;
+    font-size: 0.85rem;
+    line-height: 1.45;
+    color: #666;
+}
+
+
 .footer-icons a:hover {
     color: #000;
 }
 
 .footer-icons a svg {
-    color: inherit; /* overrides your .fa-github color so all icons match */
+    color: inherit;
 }
 
